@@ -249,6 +249,8 @@ header {
                 .content .div5 .tp .right ul li:nth-child(4) div img {
                   width: 4rem;
                   height: 4rem; }
+                  .content .div5 .tp .right ul li:nth-child(4) div img:hover {
+                    transform: scale(1.5); }
             .content .div5 .tp .right ul li:nth-child(1) div {
               position: absolute;
               width: 5rem;
@@ -325,8 +327,10 @@ header {
                 justify-content: space-around;
                 align-items: center; }
                 .content .div6 .tp .right ul li:nth-child(4) div img {
-                  width: rem;
+                  width: 3rem;
                   height: 3rem; }
+                  .content .div6 .tp .right ul li:nth-child(4) div img:hover {
+                    transform: scale(1.5); }
             .content .div6 .tp .right ul li:nth-child(1) div {
               position: absolute;
               width: 5rem;
@@ -734,6 +738,10 @@ footer {
       color: red;
       line-height: 2rem;
       text-align: center; }
+      footer .z4 .right p:nth-child(4):hover {
+        color: white;
+        background: red;
+        cursor: pointer; }
   footer .m {
     width: 1200px;
     margin: 0 auto;

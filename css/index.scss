@@ -329,6 +329,7 @@ header{
           img{
               width: 200px;
               height: 600px;
+             
           }
          
       }
@@ -362,6 +363,7 @@ header{
                  height:20rem;
                  text-align: center;
                  background: white;
+                 
                 &:nth-child(4){
                     background: #F5F5F5;
                   div{
@@ -375,6 +377,9 @@ header{
                      img{
                          width: 4rem;
                          height: 4rem;
+                          &:hover{
+                               transform: scale(1.5);
+                          }
                      } 
                   }
                }
@@ -459,6 +464,7 @@ header{
           img{
               width: 200px;
               height: 300px;
+               
               &:nth-child(2)
               {
                   margin-top: 4.1rem;
@@ -500,8 +506,11 @@ header{
                       justify-content: space-around;
                       align-items: center;
                      img{
-                         width: rem;
+                         width: 3rem;
                          height: 3rem;
+                          &:hover{
+                                      transform: scale(1.5);
+                             }
                         
                      } 
                   }
@@ -1182,6 +1191,11 @@ footer{
                    color: red;
                    line-height: 2rem;
                    text-align: center;
+                   &:hover{
+                       color: white;
+                       background: red;
+                       cursor: pointer;
+                   }
                 }
             }
         }
